@@ -1,0 +1,75 @@
+
+import java.util.Scanner;
+
+abstract class Shape
+{
+double dimention1;
+double dimention2;
+
+public void inputData(double d1, double d2)
+{
+this.dimention1 = d1;
+this.dimention2 = d2;
+}
+
+public abstract double compute_area();
+}
+
+class Triangle extends Shape
+{
+public double compute_area()
+{
+return 0.5 *dimention1 * dimention2; // Area = 0.5 * base * height
+}
+}
+
+class Rectangle extends Shape
+{
+public double compute_area()
+
+{
+return dimention1 *dimention2; 
+}
+}
+
+public class Main
+{
+public static void main(String[] args)
+{
+Scanner sc= new Scanner(System.in);
+Rectangle rectangle = new Rectangle();
+Triangle triangle=new Triangle();
+System.out.println("We have following shapes to calculate Area");
+System.out.println("1. Triangle");
+System.out.println("2. Rectangle");
+System.out.println("Enter Your choice :");
+int ch=sc.nextInt();
+if (ch == 1)
+{
+System.out.println("Enter base and height of the triangle:");
+double d1 = sc.nextDouble();
+double d2 = sc.nextDouble();
+triangle.inputData(d1,d2);
+double area = triangle.compute_area();
+System.out.println("Calculated area of Triangle is : " + area);
+}
+else if (ch == 2)
+
+{
+System.out.println("Enter length and width of the rectangle:");
+double d1 = sc.nextDouble();
+double d2 = sc.nextDouble();
+rectangle.inputData(d1,d2);
+double area = rectangle.compute_area();
+System.out.println("Calculated area of Rectangle is: " + area);
+}
+else
+{
+System.out.println("Invalid choice!");
+return;
+}
+}
+}
+
+
+
