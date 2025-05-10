@@ -127,3 +127,6 @@ public class GenericFunctionExample {
         }
     }
 }
+//file save as=  GenericFunctionExample.java
+// compile commond=  javac GenericFunctionExample.java
+//run commond= GenericFunctionExample.java
