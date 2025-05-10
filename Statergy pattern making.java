@@ -138,3 +138,6 @@ public class PaymentApp {
         cart.checkout(paymentMethod);
     }
 }
+//file save as =   PaymentApp.java
+//compile commond = javac PaymentApp.java
+// run commond= PaymentApp
