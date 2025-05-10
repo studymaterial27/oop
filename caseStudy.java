@@ -92,3 +92,6 @@ public class BankingSystem {
 scanner.close(); 
     } 
 }
+//file save as= BankingSystem.java
+//compile commond= javac BankingSystem.java
+//run commond= java BankingSystem
