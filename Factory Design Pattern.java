@@ -105,3 +105,7 @@ public class TestFactoryPattern {
         }
     }
 }
+
+//save file as =  TestFactoryPattern.java
+// compile commond=  javac TestFactoryPattern.java
+//run commond = java TestFactoryPattern
