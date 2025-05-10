@@ -38,5 +38,8 @@ System.out.println("Program execution completed………..");
 }
 }
 }
+//save file as Exception.java
+// compile commond   javac Exception.java
+// run commond  java Exception
 
 
