@@ -83,5 +83,6 @@ void Division(Complex_Op C1,Complex_Op C2)
       System.out.println("Division is:("+real+") / ("+imag+")i" );  
       } 
  } 
-//javac complex.java
-//java complex
+//save file as =complex.java
+//compile commond= javac complex.java
+//run commond= java complex
