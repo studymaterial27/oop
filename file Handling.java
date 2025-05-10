@@ -177,3 +177,6 @@ class StudentRecords {
         call.showMenu();
     }
 }
+//save file as= StudentRecords.java
+//compile commond= javac StudentRecords.java
+//run commond= java StudentRecords
