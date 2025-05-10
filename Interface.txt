@@ -123,3 +123,7 @@ public class VehicleTest {
         car.applyBrakes(20);
     }
 }
+
+//save file as=  VehicleTest.java
+// complile commond= javac VehicleTest.java
+//run commond= java VehicleTest
