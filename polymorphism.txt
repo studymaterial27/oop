@@ -82,3 +82,7 @@ public class PublicationDemo
         System.out.println("Total sale of magazine: $" + magazine.totalSale()); 
     } 
 }
+
+//save file as= PublicationDemo.java
+//compile commond=  javac PublicationDemo.java
+//run commond=  java PublicationDemo
