@@ -167,4 +167,7 @@ pm.generatePaySlip();
 }
 }
 
+//save file as=   Main.java
+// complile commond=  javac Main.java
+// run commond=  java Main
 
